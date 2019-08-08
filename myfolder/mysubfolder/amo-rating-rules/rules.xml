@@ -1,0 +1,19 @@
+<project>
+  <name>amo-rating-rules</name>
+  <modules>
+    <module>
+      <name>AUTO</name>
+      <rules-root path="rules/AUTO-NZ-*.xls"/>
+    </module>
+    <module>
+      <name>Main</name>
+      <rules-root path="rules/Main.xls"/>
+    </module>
+  </modules>
+  <classpath>
+    <entry path="."/>
+    <entry path="amo-rating-model.jar"/>
+    <entry path="target/classes"/>
+    <entry path="lib"/>
+  </classpath>
+</project>
